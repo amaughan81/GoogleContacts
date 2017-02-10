@@ -37,5 +37,6 @@ Then run `composer update`
 
 Note this application is designed for a **server-to-server** scenario, so a bit of extra coding will be needed if you are using this application in other scenarios.
 
-1. Ensure the required dependencies are installed.  See above require composer packages.
-2. Update the file config.json and complete the values for `secret_path`, `client_path`, `subject` and `developerKey`. These are obtained from the Google Developers Console at : https://console.developers.google.com. The `secret_path` and `client_path` are the paths to JSON files on your server which are obtained from the Google Console.
+1. Run `git clone https://github.com/amaughan81/GoogleContacts amaughan81/GoogleContacts
+2. Ensure the required dependencies are installed.  See above require composer packages.
+3. Update the file config.json and complete the values for `secret_path`, `client_path`, `subject` and `developerKey`. These are obtained from the Google Developers Console at : https://console.developers.google.com. The `secret_path` and `client_path` are the paths to JSON files on your server which are obtained from the Google Console.
