@@ -1,0 +1,6 @@
+{
+  "secret_path" : "/home/development/intra_application/var/certs/google/contacts/secret.json",
+  "client_path" : "/home/development/intra_application/var/certs/google/contacts/client.json",
+  "subject" : "amaughan@burnsidecollege.org.uk",
+  "developerKey": ""
+}
