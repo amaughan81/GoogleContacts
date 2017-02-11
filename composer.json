@@ -1,5 +1,5 @@
 {
-  "name": "amaughan81/GoogleContacts",
+  "name": "amaughan81/google-contacts",
   "description": "The missing PHP Google Contact API Client for a Server-to-Server Application",
   "license": "MIT",
   "keywords": ["Google","Contacts"],
