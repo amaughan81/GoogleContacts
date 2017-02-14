@@ -255,6 +255,22 @@ class GoogleContacts extends GoogleContactsHelper {
         $response = $this->httpClient->send($request);
         $response->getBody();
     }
+	
+	/**
+     * List all contacts in a Contact Group
+     * A valid group id is required that follows this format:
+     * http://www.google.com/feeds/contacts/groups/userEmail/base/1234b
+     * userEmail CANNOT be "default"
+     *
+     * @param $groupId
+     * @return array
+     */
+    public function getContactsByGroup($groupId) {
+        $this->params['v'] = '3.0';
+        $this->params['group'] = $groupId;
+
+        return $this->getAllContacts();
+    }
 
     /**
      * Public interface to batch Create Contacts
